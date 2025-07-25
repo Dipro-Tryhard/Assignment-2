@@ -75,3 +75,72 @@
     color: rgba(0, 0, 0, 1);
 }
 /* end */
+
+/* banner-style */
+.banner{
+    padding-top: 280px;
+    display: flex;
+   justify-content: center;
+    
+}
+.main-img{
+  max-width: 100%;
+}
+
+
+.title-h3{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.title-para{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 13px;
+}
+
+.banner-title{
+    width: 100%;
+}
+/* end */
+
+/* plants-section */
+
+.plants{
+    padding-top: 110px;
+}
+
+.plants-title{
+    font-size: 50px;
+    font-weight: bold;}
+
+.plants-para{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 15px;}
+
+.plnats-contain{
+    text-align: center;}
+
+.add-btn{
+    padding: 19px 87px 19px 87px;
+    margin-top: 25px;
+}
+
+.lily{
+   padding-top: 25px;
+   padding-left: 80px;
+   padding-right: 80px;
+}
+.usd{
+    padding-top: 7px;
+    padding-left: 97px;
+    padding-right: 97px;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 50px;
+   row-gap:30px;}
+/* end */
