@@ -144,3 +144,32 @@
     padding-top: 50px;
    row-gap:30px;}
 /* end */
+
+/* plants-lover-section */
+
+.plants-lover{
+    padding-top: 210px;
+    display: flex;
+    gap: 60px;}
+
+.badge{
+    width: 286px;
+    height: 286px;
+    position: relative;
+    top: -730px;
+    right: -350px;
+    animation: spin 3s linear infinite;                 }
+
+.plants-lover-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 40px;}
+
+.details{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    width: 540px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/* end */
