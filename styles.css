@@ -1,3 +1,4 @@
+
 @keyframes spin {
     from { transform: rotate(0deg);}
     to{  transform: rotate(360deg);} }
@@ -173,6 +174,7 @@
     margin-left: 20px;
 }
 /* end */
+
 /*latest-deals-section  */
 
  .deals-section {
@@ -190,8 +192,8 @@
     max-width: 600px;
     margin: 0 auto 40px;
     color: rgba(0, 0, 0, 0.5); }
-
-      /* img-part */  
+  
+  /* img-part */  
 
   .bloom{background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url('deal-bloom.png') lightgray 100% / cover no-repeat;}
 
@@ -267,3 +269,174 @@
          border: none;}
   
 /* end */
+
+/* footer */
+
+.main-div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+    
+.footer-para{
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.5);
+        width: 359px;}
+footer,a{
+    display: block;
+     margin-bottom: 30px;
+     color: rgba(107, 114, 128, 1);}
+ 
+  .footer-img{ display: inline;
+                margin-right: 10px;}
+
+      footer{
+        padding-top: 50px; }    
+        
+        
+    .logo-div{
+        margin-left: -50px;}
+
+
+
+
+
+/* media-query */
+@media (max-width: 431px){
+    
+    /* nav */
+     .nav{
+        margin-left: 23px;}
+  .none-button{
+        display: none;}
+    .carts{
+        font-size: 30px;
+        position: absolute;
+        right: -150px;
+         top: 15px;}
+/* end */
+
+    /* banner */
+      .banner{
+        flex-direction:column-reverse;
+        padding-top: 100px;
+      }
+   .title-h3{
+        font-size: 40px;
+        margin-top: 20px;}
+
+        .banner-title{
+            margin-left: 30px;
+        }
+        .main-img{ position: relative;
+         left: 50px;}
+/* end */
+
+/* plants-section */
+    .card{
+        grid-template-columns: repeat(2,1fr);
+        margin: 0px 30px;
+        column-gap: 15px;
+    }
+       .plnats-contain{position: relative; left:20%;} 
+
+    .plants-para{ font-size: 22px;}   
+
+    /* end */
+
+    /* plants-lover-section */
+     .badge{
+        display: none;}
+     
+     .plants-lover{
+        flex-direction: column;}
+
+     .flower-store{
+        position: relative;
+        left: 40px;}
+
+   .plants-lover-detail{
+         position: relative;
+        left: 30px;
+        margin-top: -75px;}
+
+        .hide-br{
+            display: none;
+        }
+    .plants-lover-title{font-size: 35px;}
+
+     .plants-lover{
+        padding-top: 80px;}
+
+   /* end */
+
+   /* deals */
+   .deals-section{ margin-top: 80px;
+                    position: relative;
+                    left: 90px;}
+
+       .deals-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .deal-box {
+    width: 100%;
+    height: 200px; 
+  }
+
+  .deal-box.large {
+    height: 200px;}
+
+    .img-1{ background-repeat: no-repeat;
+               background-size: cover;
+              background-position: center;}
+
+    .img-2{ background-repeat: no-repeat;
+               background-size: cover;
+              background-position: center;} 
+              
+   .img-3{background-repeat: no-repeat;
+           background-size: cover;
+          background-position: center;}
+  /* end */
+
+   /* join-section */
+   
+   .join-title{
+    font-size: 15px;
+    margin-right: -120px;
+          position: relative;
+             top: -40px;
+               left: -40px;}
+
+  .email{ padding: 15px 90px 15px 20px;}
+
+  .join-section{width: 100%;
+              height: 275px;
+                 background-size: cover;
+                
+                position: relative;
+                left: 5px;
+                right: 5px; }              
+              
+   .form-grp{ position: relative;
+              left: -120px;
+                top: -30px;}
+       
+      .sub-btn{
+           position: relative;
+           left: 55px;}          
+      /* end */
+
+/* footer */
+      .main-div{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+          margin-left: 20px;
+           margin-bottom: 15px;}
+
+    .logo-div{
+        margin-left: 0px;
+        margin-bottom:20px;
+    }  }
