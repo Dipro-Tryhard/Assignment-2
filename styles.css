@@ -190,3 +190,80 @@
     max-width: 600px;
     margin: 0 auto 40px;
     color: rgba(0, 0, 0, 0.5); }
+
+      /* img-part */  
+
+  .bloom{background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url('deal-bloom.png') lightgray 100% / cover no-repeat;}
+
+  .ana{ background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url('deal-ana.png') lightgray 100% / cover no-repeat;}
+  
+  .zabo{ background: linear-gradient(0deg, rgba(0, 0, 0, 0.90) 0%, rgba(0, 0, 0, 0.90) 100%), url('dea-zabo.png') lightgray 0px -78.437px / 115.538% 137.075% no-repeat; }
+
+  .img-1{background-image: url(../assets/deal-bloom.png);}
+  
+  .img-2{ background-image: url(../assets/deal-ana.png);}
+  
+  .img-3{ background-image: url(../assets/deal-zabo.png);}
+  
+    
+  .deals-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 80px auto;}
+
+  .deal-box {
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;}
+
+  .deal-box span {
+    margin-top: 10px;
+    font-weight:500;
+    font-size: 20px;}
+
+ 
+
+  .deals-grid .deal-box:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;}
+
+  .deals-grid .deal-box:nth-child(2) {
+    grid-column: 1;
+    grid-row: 2;}
+
+  .deals-grid .deal-box.large {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    min-height: 260px;}
+/* end */
+
+/* join-section */
+
+.join-section { background-image: url(../assets/news-letter-bg.png);
+                 background-size: cover;
+                 width: 100%;
+                text-align: center;
+                 padding: 190px 305px 193px 305px; 
+                margin-top: -30px;}
+             
+   .join-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+     margin-bottom: 25px;} 
+
+.sub-btn{ padding: 16px 54px;
+          position: relative;
+             bottom: -5px;} 
+ .email{ padding: 16px 540px 16px 20px;
+         border: none;}
+  
+/* end */
