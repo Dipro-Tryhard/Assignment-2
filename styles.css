@@ -173,3 +173,20 @@
     margin-left: 20px;
 }
 /* end */
+/*latest-deals-section  */
+
+ .deals-section {
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: -260px;}
+
+    .deals-section h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;}
+
+ 
+  .deals-section p {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    color: rgba(0, 0, 0, 0.5); }
